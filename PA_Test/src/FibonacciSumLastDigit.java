@@ -20,14 +20,25 @@ public class FibonacciSumLastDigit {
     }
 
     private static long getFibonacciSum(long n) {
-        return n;
+        if(n == 0 || n == 1){
+            return n;
+        }
+        int[] F = new int[(int)n+3];
+        F[0] = 0;
+        F[1] = 1;
+        for (int i = 2; i <= n+2; i++) {
+            F[i] = (F[i-1] + F[i-2]) % 10;
+        }
+        return (F[(int)n+2] - 1)%10;
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long n = scanner.nextLong();
-        long s = getFibonacciSumNaive(n);
-        System.out.println(s);
+        //long s = getFibonacciSumNaive(n);
+        long g = getFibonacciSum(n);
+        //System.out.println(s);
+        System.out.println(g);
     }
 }
 
