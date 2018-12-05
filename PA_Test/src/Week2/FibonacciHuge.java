@@ -1,5 +1,3 @@
-package Week2;
-
 import java.util.*;
 // Question 5
 public class FibonacciHuge {

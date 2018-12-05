@@ -1,8 +1,10 @@
+package Week2;
+
 import java.math.BigInteger;
 import java.util.*;
-// Question 8
-public class FibonacciSumSquares {
-    private static long getFibonacciSumSquaresNaive(long n) {
+// Question 6
+public class FibonacciSumLastDigit {
+    private static long getFibonacciSumNaive(long n) {
         if (n <= 1)
             return n;
 
@@ -14,31 +16,39 @@ public class FibonacciSumSquares {
             long tmp_previous = previous;
             previous = current;
             current = tmp_previous + current;
-            sum += current * current;
+            sum += current;
         }
 
         return sum % 10;
     }
 
-    private static java.math.BigInteger getFibonacciSumSquares(long n) {
+    private static int getFibonacciSum(long n) {
         if(n == 0 || n == 1){
-            return java.math.BigInteger.valueOf(n);
+            return (int)n;
         }
         BigInteger x = BigInteger.ZERO;
         BigInteger y = BigInteger.ONE;
         BigInteger z;
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= (n+2) % 60; i++) {
             z = x.add(y);
             x = y;
             y = z;
+//            System.out.print(i);
+//            System.out.print(" : ");
+//            System.out.print(y);
+//            System.out.print(" ");
+//            System.out.print(x);
+//            System.out.print(" ");
+//            System.out.println(z);
         }
-        return y.multiply(x.add(y)).mod(BigInteger.TEN);
+
+        return (y.subtract(BigInteger.ONE)).mod(BigInteger.TEN).intValue();
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long n = scanner.nextLong();
-        System.out.println(getFibonacciSumSquares(n));
+        System.out.println(getFibonacciSum(n));
     }
 }
 
