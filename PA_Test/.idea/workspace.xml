@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763571d4-ccde-4d5e-aa7c-e3a13b38325a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciSumSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciSumSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciSumSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FibonacciPartialSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
+            <state relative-caret-position="-41">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FibonacciSumSquares.java">
+        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="33" selection-start-line="33" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/FibonacciSumLastDigit.java" />
         <option value="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" />
         <option value="$PROJECT_DIR$/src/FibonacciSumSquares.java" />
+        <option value="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" />
       </list>
     </option>
   </component>
@@ -114,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544111017675" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544111982041" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -133,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSumSquares">
+  <component name="RunManager" selected="Application.FibonacciSumSquares (1)">
     <configuration name="FibonacciHuge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.FibonacciHuge" />
       <module name="PA_Test" />
@@ -155,15 +154,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSumSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciSumSquares (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FibonacciSumSquares" />
       <module name="PA_Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCM" />
+    <configuration name="FibonacciSumSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.FibonacciSumSquares" />
       <module name="PA_Test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSumSquares (1)" />
         <item itemvalue="Application.FibonacciSumSquares" />
         <item itemvalue="Application.FibonacciSumLastDigit" />
         <item itemvalue="Application.FibonacciHuge" />
         <item itemvalue="Application.FibonacciPartialSum" />
-        <item itemvalue="Application.LCM" />
       </list>
     </recent_temporary>
   </component>
@@ -373,15 +372,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FibonacciPartialSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
+        <state relative-caret-position="-41">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FibonacciSumSquares.java">
+    <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="33" selection-start-line="33" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

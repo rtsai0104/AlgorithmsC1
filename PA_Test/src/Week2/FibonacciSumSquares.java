@@ -21,8 +21,8 @@ public class FibonacciSumSquares {
     }
 
     private static BigInteger getFibonacciSumSquares(long n) {
-        if(n == 0 || n == 1){
-            return java.math.BigInteger.valueOf(n);
+        if(n == 0 || n == 1 || n%60 == 0 || n%60 == 1){
+            return BigInteger.valueOf(n%10);
         }
         BigInteger x = BigInteger.ZERO;
         BigInteger y = BigInteger.ONE;
@@ -31,13 +31,6 @@ public class FibonacciSumSquares {
             z = x.add(y);
             x = y;
             y = z;
-            System.out.print(i);
-            System.out.print(" : ");
-            System.out.print(y);
-            System.out.print(" ");
-            System.out.print(x);
-            System.out.print(" ");
-            System.out.println(z);
         }
         return y.multiply(x.add(y)).mod(BigInteger.TEN);
     }
