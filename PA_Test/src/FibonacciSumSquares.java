@@ -20,17 +20,24 @@ public class FibonacciSumSquares {
         return sum % 10;
     }
 
-    private static java.math.BigInteger getFibonacciSumSquares(long n) {
+    private static BigInteger getFibonacciSumSquares(long n) {
         if(n == 0 || n == 1){
             return java.math.BigInteger.valueOf(n);
         }
         BigInteger x = BigInteger.ZERO;
         BigInteger y = BigInteger.ONE;
         BigInteger z;
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= (n)%60; i++) {
             z = x.add(y);
             x = y;
             y = z;
+            System.out.print(i);
+            System.out.print(" : ");
+            System.out.print(y);
+            System.out.print(" ");
+            System.out.print(x);
+            System.out.print(" ");
+            System.out.println(z);
         }
         return y.multiply(x.add(y)).mod(BigInteger.TEN);
     }
