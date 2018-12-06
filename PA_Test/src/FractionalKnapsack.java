@@ -1,10 +1,31 @@
+import java.util.Arrays;
 import java.util.Scanner;
-
+// Question 2
 public class FractionalKnapsack {
     private static double getOptimalValue(int capacity, int[] values, int[] weights) {
         double value = 0;
-        //write your code here
-
+        if (capacity == 0) {
+            return 0;
+        }
+        double[] unitVal = new double[values.length];
+        for (int i = 0; i < values.length; i++) {
+            unitVal[i] = (double)values[i]/weights[i];
+            //System.out.println(unitVal[i]);
+//            System.out.print("Value ");
+//            System.out.println(values[i]);
+//            System.out.print("Weight ");
+//            System.out.println(unitVal[i]);
+        }
+        Arrays.sort(unitVal);
+        for (int i = values.length-1; i >= 0; i--) {
+            if (capacity == 0){
+                return value;
+            }
+            System.out.println(unitVal[i]);
+            double a = Math.min(unitVal[i], capacity);
+            value += a*unitVal[i];
+            capacity -= a;
+        }
         return value;
     }
 
