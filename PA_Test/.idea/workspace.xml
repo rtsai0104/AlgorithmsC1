@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763571d4-ccde-4d5e-aa7c-e3a13b38325a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CoveringSegments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DifferentSummands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/Change.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FractionalKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FractionalKnapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/3_maximum_advertisement_revenue/DotProduct.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/3_maximum_advertisement_revenue/by_learners/dot_rpoduct.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/3_maximum_advertisement_revenue/dot_product.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/3_maximum_advertisement_revenue/dot_product.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotProduct.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +13,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LargestNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CoveringSegments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DifferentSummands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DotProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FractionalKnapsack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,10 +110,10 @@
         <option value="$PROJECT_DIR$/src/Change.java" />
         <option value="$PROJECT_DIR$/src/Week3/Change.java" />
         <option value="$PROJECT_DIR$/src/FractionalKnapsack.java" />
-        <option value="$PROJECT_DIR$/src/DotProduct.java" />
         <option value="$PROJECT_DIR$/src/CoveringSegments.java" />
         <option value="$PROJECT_DIR$/src/DifferentSummands.java" />
         <option value="$PROJECT_DIR$/src/LargestNumber.java" />
+        <option value="$PROJECT_DIR$/src/DotProduct.java" />
       </list>
     </option>
   </component>
@@ -120,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544128288379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544132549338" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -139,9 +171,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FractionalKnapsack">
+  <component name="RunManager" selected="Application.DotProduct">
     <configuration name="Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week3.Change" />
+      <module name="PA_Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DotProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DotProduct" />
       <module name="PA_Test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,13 +200,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciPartialSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.FibonacciPartialSum" />
-      <module name="PA_Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FractionalKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FractionalKnapsack" />
       <module name="PA_Test" />
@@ -177,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DotProduct" />
         <item itemvalue="Application.FractionalKnapsack" />
         <item itemvalue="Application.Change" />
         <item itemvalue="Application.FibonacciHuge (1)" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.FibonacciPartialSum" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +440,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LargestNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoveringSegments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DifferentSummands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
@@ -417,35 +463,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DotProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FractionalKnapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="41">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DifferentSummands.java">
+    <entry file="file://$PROJECT_DIR$/src/FractionalKnapsack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="217">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
-            <element signature="e#158#167#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LargestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
