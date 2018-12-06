@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763571d4-ccde-4d5e-aa7c-e3a13b38325a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/FibonacciSumSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/APlusB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/FibonacciHuge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PA_Test/FibonacciHuge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/FibonacciLastDigit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/FibonacciPartialSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/FibonacciSumLastDigit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/FibonacciSumSquares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/GCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/LCM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/MaxPairwiseProduct$FastScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/MaxPairwiseProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciPartialSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciPartialSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/APlusB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/APlusB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/week1_programming_challenges.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/FibonacciHuge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciHuge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/LCM.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,22 +36,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FibonacciPartialSum.java">
+        <entry file="file://$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/GCD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/LCM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciPartialSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week2/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week1/APlusB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java">
+        <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciHuge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -43,6 +146,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>calc_fib</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -51,31 +159,33 @@
       <list>
         <option value="$PROJECT_DIR$/src/APlusB.java" />
         <option value="$PROJECT_DIR$/src/MaxPairwiseProduct.java" />
-        <option value="$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java" />
         <option value="$PROJECT_DIR$/src/FibonacciLastDigit.java" />
         <option value="$PROJECT_DIR$/src/GCD.java" />
         <option value="$PROJECT_DIR$/src/Week1/LCM.java" />
         <option value="$PROJECT_DIR$/src/LCM.java" />
         <option value="$PROJECT_DIR$/src/Week1/FibonacciSumLastDigit.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/FibonacciHuge.java" />
+        <option value="$PROJECT_DIR$/src/FibonacciSumLastDigit.java" />
+        <option value="$PROJECT_DIR$/src/FibonacciSumSquares.java" />
+        <option value="$PROJECT_DIR$/src/FibonacciPartialSum.java" />
+        <option value="$PROJECT_DIR$/src/Week1/APlusB.java" />
+        <option value="$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java" />
         <option value="$PROJECT_DIR$/src/Week2/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java" />
+        <option value="$PROJECT_DIR$/src/Week2/FibonacciPartialSum.java" />
+        <option value="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" />
+        <option value="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" />
         <option value="$PROJECT_DIR$/src/Week2/GCD.java" />
         <option value="$PROJECT_DIR$/src/Week2/LCM.java" />
-        <option value="$PROJECT_DIR$/src/FibonacciPartialSum.java" />
-        <option value="$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java" />
-        <option value="$PROJECT_DIR$/src/FibonacciHuge.java" />
         <option value="$PROJECT_DIR$/src/Week2/FibonacciHuge.java" />
-        <option value="$PROJECT_DIR$/src/FibonacciSumLastDigit.java" />
-        <option value="$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java" />
-        <option value="$PROJECT_DIR$/src/FibonacciSumSquares.java" />
-        <option value="$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="434" />
+    <option name="x" value="531" />
     <option name="y" value="23" />
-    <option name="width" value="974" />
+    <option name="width" value="877" />
     <option name="height" value="803" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,6 +213,12 @@
               <item name="PA_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="PA_Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Week1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Week2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -113,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544111982041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544120577636" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -132,23 +248,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSumSquares (1)">
-    <configuration name="FibonacciHuge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.FibonacciHuge" />
+  <component name="RunManager" selected="Application.FibonacciHuge (1)">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+      <module name="PA_Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciHuge (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FibonacciHuge" />
       <module name="PA_Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FibonacciPartialSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciPartialSum" />
-      <module name="PA_Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciSumLastDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.FibonacciSumLastDigit" />
+      <option name="MAIN_CLASS_NAME" value="Week2.FibonacciPartialSum" />
       <module name="PA_Test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciHuge (1)" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.FibonacciPartialSum" />
         <item itemvalue="Application.FibonacciSumSquares (1)" />
         <item itemvalue="Application.FibonacciSumSquares" />
-        <item itemvalue="Application.FibonacciSumLastDigit" />
-        <item itemvalue="Application.FibonacciHuge" />
-        <item itemvalue="Application.FibonacciPartialSum" />
       </list>
     </recent_temporary>
   </component>
@@ -192,10 +308,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="23" width="974" height="803" extended-state="0" />
+    <frame x="531" y="23" width="877" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1416309" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15808383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -204,7 +320,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3305204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,13 +368,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Week1/APlusB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../week2_algorithmic_warmup/1_fibonacci_number/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -270,16 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -329,61 +428,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FibonacciLastDigit.java" />
     <entry file="file://$PROJECT_DIR$/src/Fibonacci.java" />
-    <entry file="file://$PROJECT_DIR$/src/Week2/GCD.java">
+    <entry file="file://$PROJECT_DIR$/src/Week1/APlusB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state>
+          <caret selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/LCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java">
+    <entry file="file://$PROJECT_DIR$/src/Week1/MaxPairwiseProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="22" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciHuge.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state>
+          <caret lean-forward="true" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciPartialSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumLastDigit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="33" selection-start-line="33" selection-end-line="39" selection-end-column="36" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FibonacciPartialSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciSumSquares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/GCD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/LCM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciLastDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2/FibonacciHuge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>

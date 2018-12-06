@@ -1,3 +1,5 @@
+package Week2;
+
 import java.util.*;
 // Question 2
 public class FibonacciLastDigit {

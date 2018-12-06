@@ -1,3 +1,5 @@
+package Week2;
+
 import java.util.*;
 // Question 5
 public class FibonacciHuge {
@@ -18,10 +20,10 @@ public class FibonacciHuge {
     }
 
     private static java.math.BigInteger getFibonacciHuge(long n, long m) {
-        return calc_fib(n % pisano(m)).mod(java.math.BigInteger.valueOf(m));
+        return calc_fib1(n % pisano(m)).mod(java.math.BigInteger.valueOf(m));
     }
 
-    private static java.math.BigInteger calc_fib(long n) {
+    private static java.math.BigInteger calc_fib1(long n) {
         if(n == 0 || n == 1){
             return java.math.BigInteger.valueOf(n);
         }
