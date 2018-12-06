@@ -1,3 +1,5 @@
+package Week3;
+
 import java.math.BigInteger;
 import java.util.*;
 // Question 3
