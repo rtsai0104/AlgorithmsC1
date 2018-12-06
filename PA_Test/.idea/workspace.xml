@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763571d4-ccde-4d5e-aa7c-e3a13b38325a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FractionalKnapsack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/1_money_change/Change.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/1_money_change/by_learners/change.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/1_money_change/change.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/1_money_change/change.hs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/2_maximum_value_of_the_loot/FractionalKnapsack.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/2_maximum_value_of_the_loot/by_learners/fractional_knapsack.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/2_maximum_value_of_the_loot/fractional_knapsack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/2_maximum_value_of_the_loot/fractional_knapsack.hs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/4_collecting_signatures/CoveringSegments.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/4_collecting_signatures/by_learners/covering_segments.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/4_collecting_signatures/covering_segments.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/4_collecting_signatures/covering_segments.hs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/5_maximum_number_of_prizes/DifferentSummands.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/5_maximum_number_of_prizes/by_learners/different_summands.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/5_maximum_number_of_prizes/different_summands.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/5_maximum_number_of_prizes/different_summands.hs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/6_maximum_salary/LargestNumber.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/6_maximum_salary/by_learners/largest_number.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/6_maximum_salary/largest_number.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3_greedy_algorithms/6_maximum_salary/largest_number.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/FibonacciHuge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PA_Test/Week1/week1_programming_challenges.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Change.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Change.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Week3/Change.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FractionalKnapsack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -86,6 +78,8 @@
         <option value="$PROJECT_DIR$/src/Week2/LCM.java" />
         <option value="$PROJECT_DIR$/src/Week2/FibonacciHuge.java" />
         <option value="$PROJECT_DIR$/src/Change.java" />
+        <option value="$PROJECT_DIR$/src/Week3/Change.java" />
+        <option value="$PROJECT_DIR$/src/FractionalKnapsack.java" />
       </list>
     </option>
   </component>
@@ -124,7 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544120847885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544122010971" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -143,7 +137,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciHuge (1)">
+  <component name="RunManager" selected="Application.Change">
+    <configuration name="Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week3.Change" />
+      <module name="PA_Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="PA_Test" />
@@ -172,20 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSumSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week2.FibonacciSumSquares" />
-      <module name="PA_Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Change" />
         <item itemvalue="Application.FibonacciHuge (1)" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.FibonacciPartialSum" />
         <item itemvalue="Application.FibonacciSumSquares (1)" />
-        <item itemvalue="Application.FibonacciSumSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -405,10 +399,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Change.java">
+    <entry file="file://$PROJECT_DIR$/src/Week3/Change.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FractionalKnapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

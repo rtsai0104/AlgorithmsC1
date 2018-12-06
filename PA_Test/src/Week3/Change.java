@@ -1,9 +1,13 @@
+package Week3;
+
 import java.util.Scanner;
 // Question 1
 public class Change {
     private static int getChange(int m) {
-        //write your code here
-        return m;
+        int count = 0;
+        count += Math.floor(m/10);
+        m = m%10;
+        return count + (m >= 5 ? m - 4: m);
     }
 
     public static void main(String[] args) {
