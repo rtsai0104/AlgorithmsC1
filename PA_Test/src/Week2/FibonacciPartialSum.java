@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.*;
 // Question 7
 public class FibonacciPartialSum {
@@ -21,16 +22,30 @@ public class FibonacciPartialSum {
     }
 
     private static long getFibonacciPartialSum(long from, long to) {
-        int[] F = new int[(int)to+1];
-        int sum = 0;
-        if (from == 1) { sum += 1; }
-        F[0] = 0;
-        F[1] = 1;
-        for (int i = 2; i <= to; i++) {
-            F[i] = F[i-1] + F[i-2];
-            if (i >= from) { sum = (sum + F[i]) % 10; }
+        return (getFibSum(to).subtract(getFibSum(from-1))).mod(BigInteger.TEN).longValue();
+    }
+
+    private static BigInteger getFibSum(long n) {
+        if(n == 0 || n == 1){
+            return BigInteger.valueOf(n);
         }
-        return (sum);
+        BigInteger x = BigInteger.ZERO;
+        BigInteger y = BigInteger.ONE;
+        BigInteger z;
+        for (int i = 2; i <= (n+2) % 60; i++) {
+            z = x.add(y);
+            x = y;
+            y = z;
+//            System.out.print(i);
+//            System.out.print(" : ");
+//            System.out.print(y);
+//            System.out.print(" ");
+//            System.out.print(x);
+//            System.out.print(" ");
+//            System.out.println(z);
+        }
+
+        return (y.subtract(BigInteger.ONE));
     }
 
     public static void main(String[] args) {
