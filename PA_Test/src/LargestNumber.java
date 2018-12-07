@@ -19,5 +19,11 @@ public class LargestNumber {
         }
         System.out.println(largestNumber(a));
     }
+
+    public static Boolean isGreaterOrEqual(String digit, String maxDigit) {
+        Boolean lenLessThan = digit.length() < maxDigit.length();
+
+        return false;
+    }
 }
 

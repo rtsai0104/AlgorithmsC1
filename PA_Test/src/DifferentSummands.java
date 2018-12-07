@@ -3,9 +3,9 @@ import java.util.*;
 public class DifferentSummands {
     private static List<Integer> optimalSummands(int n) {
         List<Integer> summands = new ArrayList<Integer>();
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             summands.add(i);
-            //if
+
         }
         return summands;
     }
