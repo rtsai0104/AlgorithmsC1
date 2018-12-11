@@ -1,11 +1,21 @@
+package Week3;
+
 import java.util.*;
 // Question 6
 public class LargestNumber {
     private static String largestNumber(String[] a) {
         //write your code here
         String result = "";
-        for (int i = 0; i < a.length; i++) {
-            result += a[i];
+        ArrayList<String> ac = new ArrayList<>(Arrays.asList(a));
+        while (!ac.isEmpty()) {
+            String maxDigit = "0";
+            for (int j = 0; j < ac.size(); j++) {
+                if (isGreaterOrEqual(ac.get(j), maxDigit)) {
+                    maxDigit = ac.get(j);
+                }
+            }
+            result += String.valueOf(maxDigit);
+            ac.remove(String.valueOf(maxDigit));
         }
         return result;
     }
@@ -21,9 +31,7 @@ public class LargestNumber {
     }
 
     public static Boolean isGreaterOrEqual(String digit, String maxDigit) {
-        Boolean lenLessThan = digit.length() < maxDigit.length();
-
-        return false;
+        return Integer.valueOf(digit.concat(maxDigit)) >= Integer.valueOf(maxDigit.concat(digit));
     }
 }
 
