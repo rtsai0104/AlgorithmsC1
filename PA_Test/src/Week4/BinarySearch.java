@@ -2,7 +2,7 @@ package Week4;
 
 import java.io.*;
 import java.util.*;
-
+// Question 1
 public class BinarySearch {
 
     static int binarySearch(int[] a, int x) {
