@@ -3,45 +3,61 @@ import java.util.*;
 public class Inversions {
 
     private long getNumberOfInversions(int[] a, int[] b, int left, int right) {
-        long numberOfInversions = 0;
-        Tuple input = new Tuple(a, 0);
-        Tuple out = mergeSort(input);
-        return numberOfInversions;
+        ArrayList<Integer> a_copy = new ArrayList<>();
+        for(int i = 0; i < a.length; i++){
+            a_copy.add(a[i]);
+        }
+        Tuple input = new Tuple(a_copy, 0);
+        Tuple out = MergeSort(input);
+        return out.numInv;
     }
 
-    public int[] MergeSort(int[] A) {
-        if (A.length == 1) {
+    public Tuple MergeSort(Tuple A) {
+        if (A.mList.size() == 1) {
             return A;
         }
-        int m = (int) Math.floor(A.length/2);
-        int[] B = MergeSort(Arrays.copyOfRange(A, 0, m));
-        int[] C = MergeSort(Arrays.copyOfRange(A, m+1, A.length-1));
+        int m = (int) Math.floor(A.mList.size()/2);
+        ArrayList<Integer> x = new ArrayList<>();
+        ArrayList<Integer> y = new ArrayList<>();
+        for(int i = 0; i < A.mList.size(); i++) {
+            if(i <= m) {
+                x.add(A.mList.get(i));
+            } else {
+                y.add(A.mList.get(i));
+            }
+        }
+        Tuple B = MergeSort(new Tuple(x, A.numInv));
+        Tuple C = MergeSort(new Tuple(y, A.numInv));
 
         return Merge(B, C);
     }
 
-    public int[] Merge(int[] B, int[] C) {
-        int[] D = new int[B.length+C.length];
-        while(!B.isEmpty && !C.isEmpty){
-            int b = B[0];
-            int c = C[0];
+    public Tuple Merge(Tuple B, Tuple C) {
+        ArrayList<Integer> D = new ArrayList<>();
+        long x = B.numInv + C.numInv;
+        while(!B.mList.isEmpty() && !C.mList.isEmpty()){
+            int b = B.mList.get(0);
+            int c = C.mList.get(0);
             if(b <= c){
                 D.add(b);
+                B.mList.remove(b);
             } else {
                 D.add(c);
+                C.mList.remove(c);
+                x += B.mList.size();
             }
         }
-        if(!B.isEmpty) { D.add(B[0]); }
-        else { D.add(C[0]); }
-        return D;
+        if(!B.mList.isEmpty()) { D.add(B.mList.get(0)); }
+        else { D.add(C.mList.get(0)); }
+        return new Tuple(D, x);
     }
 
     class Tuple {
-        ArrayList<Integer> a;
-        int numInv;
+        ArrayList<Integer> mList;
+        long numInv;
 
-        Tuple(ArrayList<Integer> a, int numInv) {
-            this.a = a;
+        Tuple(ArrayList<Integer> a, long numInv) {
+            this.mList = a;
             this.numInv = numInv;
         }
     }
@@ -54,7 +70,7 @@ public class Inversions {
             a[i] = scanner.nextInt();
         }
         int[] b = new int[n];
-        System.out.println(getNumberOfInversions(a, b, 0, a.length));
+        Inversions inversion = new Inversions();
+        System.out.println(inversion.getNumberOfInversions(a, b, 0, a.length));
     }
 }
-

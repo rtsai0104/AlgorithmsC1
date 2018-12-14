@@ -1,3 +1,5 @@
+package Week4;
+
 import java.io.*;
 import java.util.*;
 // Question 3
@@ -5,13 +7,39 @@ public class Sorting {
     private static Random random = new Random();
 
     private static int[] partition3(int[] a, int l, int r) {
-      //write your code here
+        //write your code here
+        int[] ms = new int[2];
         int x = a[l];
-        int j = l;
-        int m1 = l;
-        int m2 = r;
-        int[] m = {m1, m2};
-        return m;
+        ms[0] = l;
+        ms[1] = r;
+        int counter = 0;
+        for (int i = l+1; i <= ms[1]; i++) {
+            if (a[i] < x) {
+                ms[0]++;
+                swap(a, ms[0], i);
+            } else if (a[i] == x) {
+                swap(a, ms[1], i);
+                if(a[i] < x){
+                    ms[0]++;
+                    swap(a, ms[0], i);
+                }
+                ms[1]--;
+                counter++;
+            }
+        }
+        swap(a, ms[0], l);
+        for(int i = 1; i <= counter; i++){
+            swap(a, ms[1]+i, ms[0]+i);
+        }
+        ms[1] = ms[0] + counter;
+        return ms;
+    }
+
+
+    static void swap(int[] a, int x, int y){
+        int temp = a[x];
+        a[x] = a[y];
+        a[y] = temp;
     }
 
     private static int partition2(int[] a, int l, int r) {
@@ -39,10 +67,9 @@ public class Sorting {
         int t = a[l];
         a[l] = a[k];
         a[k] = t;
-        //use partition3
-        int m = partition2(a, l, r);
-        randomizedQuickSort(a, l, m - 1);
-        randomizedQuickSort(a, m + 1, r);
+        int[] m = partition3(a, l, r);
+        randomizedQuickSort(a, l, m[0] - 1);
+        randomizedQuickSort(a, m[1] + 1, r);
     }
 
     public static void main(String[] args) {
