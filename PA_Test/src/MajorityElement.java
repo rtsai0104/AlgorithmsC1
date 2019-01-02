@@ -3,11 +3,17 @@ import java.io.*;
 // Question 2
 public class MajorityElement {
     private static int getMajorityElement(int[] a, int left, int right) {
-        //write your code here
+        //Edge Cases
+        if(a.length == 0) {
+            return -1;
+        } else if (a.length == 1) {
+            return 1;
+        }
+
         Arrays.sort(a);
         if(a.length % 2 == 1){
-            return ((a[0] == a[(int)Math.floor(a.length/2)]) ||
-                    (a[(int)Math.floor(a.length/2)] == a[a.length-1]))
+            return ((a[0] == a[(a.length-1)/2]) ||
+                    (a[(a.length-1)/2] == a[a.length-1]))
                     ? 1 : -1;
         } else {
             return ((a[0] == a[a.length/2]) ||

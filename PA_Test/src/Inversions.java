@@ -47,7 +47,7 @@ public class Inversions {
                 x += B.mList.size();
             }
         }
-        if(!B.mList.isEmpty()) { D.add(B.mList.get(0)); }
+        if (!B.mList.isEmpty()) { D.add(B.mList.get(0)); }
         else { D.add(C.mList.get(0)); }
         return new Tuple(D, x);
     }
@@ -59,6 +59,11 @@ public class Inversions {
         Tuple(ArrayList<Integer> a, long numInv) {
             this.mList = a;
             this.numInv = numInv;
+        }
+
+        public void setter(ArrayList<Integer> a, long num) {
+            this.mList = a;
+            this.numInv = num;
         }
     }
 
