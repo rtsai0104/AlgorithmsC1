@@ -1,7 +1,7 @@
 package Week5;
 
 import java.util.*;
-// Question 2 Wk 5
+// Question 2
 public class PrimitiveCalculator {
     private static List<Integer> optimal_sequence(int n) {
         List<Integer> sequence = new ArrayList<Integer>();

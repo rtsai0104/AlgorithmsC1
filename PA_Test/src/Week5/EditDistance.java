@@ -1,7 +1,7 @@
 package Week5;
 
 import java.util.*;
-// Question 3 Wk 5
+// Question 3
 class EditDistance {
     public static int EditDistance(String s, String t) {
         //write your code here

@@ -1,7 +1,7 @@
 package Week5;
 
 import java.util.*;
-// Question 6 Wk 5
+// Question 5
 public class LCS3 {
 
     private static int lcs3(int[] a, int[] b, int[] c) {

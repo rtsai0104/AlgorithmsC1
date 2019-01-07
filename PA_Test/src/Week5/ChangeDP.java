@@ -1,7 +1,7 @@
 package Week5;
 
 import java.util.Scanner;
-// Question 1 Wk 5
+// Question 1
 public class ChangeDP {
     private static int getChange(int m) {
         //write your code here
