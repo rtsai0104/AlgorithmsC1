@@ -1,3 +1,5 @@
+package Week5;
+
 import java.util.Scanner;
 // Question 1 Wk 5
 public class ChangeDP {

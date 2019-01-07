@@ -1,3 +1,5 @@
+package Week5;
+
 import java.util.*;
 // Question 3 Wk 5
 class EditDistance {

@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 import static java.lang.Math.*;
-// Question 6
+
 public class Closest {
 
     static class Point implements Comparable<Point> {
@@ -20,31 +20,34 @@ public class Closest {
     }
 
     static double minimalDistance(int[] x, int y[]) {
-        double ans = Double.POSITIVE_INFINITY;
-        //write your code here
         Point[] points = new Point[x.length];
-        for(int i = 0; i < x.length; i++) {
+        double middleLine = 0;
+        for (int i = 0; i < x.length; i++) {
             points[i] = new Point(x[i], y[i]);
+            middleLine += x[i];
         }
-        Arrays.sort(points);
-        ans = Math.min(recurse(points, 0, (int) Math.ceil(points.length/2)-1),
-                recurse(points, (int) Math.ceil(points.length/2), points.length-1));
-        return ans;
+        middleLine /= x.length;
+        double ans = calculateDistance(points, 0, points.length-1);
+        return middleLine;
     }
 
-    static double recurse(Point[] points, int lo, int hi) {
-        if(points.length == 2) {
-            return distance(points[lo], points[hi]);
-        } else if (points.length == 3) {
-            return Math.min(Math.min(distance(points[lo], points[lo+1]),
-                    distance(points[lo], points[hi])), distance(points[lo+1], points[hi]));
+    static double calculateDistance(Point[] points, int left, int right) {
+        if(right-left == 1) {
+            return distance(points[left], points[right]);
+        } else if (right-left == 2) {
+            double d1 = distance(points[left], points[left+1]);
+            double d2 = distance(points[left], points[right]);
+            double d3 = distance(points[left+1], points[right]);
+            return Math.min(d1, Math.min(d2, d3));
+        } else {
+            int m = (int)Math.ceil(points.length/2.0);
+            return Math.min(calculateDistance(points, left, m-1),
+                            calculateDistance(points, m, right));
         }
-        return Math.min(recurse(points, lo, (int) Math.ceil(lo + (hi-lo)/2)),
-                recurse(points, (int) Math.ceil(lo + (hi-lo)/2) + 1, hi));
     }
 
-    static double distance(Point a, Point b) {
-        return Math.sqrt(Math.pow(a.x-b.x, 2) + Math.pow(a.y-b.y, 2));
+    static double distance(Point p1, Point p2) {
+        return Math.sqrt(Math.pow(p2.x-p1.x, 2) + Math.pow(p2.y-p1.y, 2));
     }
 
     public static void main(String[] args) throws Exception {

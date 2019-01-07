@@ -1,3 +1,5 @@
+package Week5;
+
 import java.util.*;
 // Question 2 Wk 5
 public class PrimitiveCalculator {
