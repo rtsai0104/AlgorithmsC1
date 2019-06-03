@@ -4,22 +4,30 @@ import java.io.*;
 public class MajorityElement {
     private static int getMajorityElement(int[] a, int left, int right) {
         //Edge Cases
-        if(a.length == 0) {
-            return -1;
-        } else if (a.length == 1) {
+        if(a.length == 1) {
             return 1;
+        } else if (a.length == 2) {
+            return a[0] == a[1] ? 1 : -1;
         }
-
         Arrays.sort(a);
+
+        int m = a.length / 2;
+        Boolean check1, check2;
+        // if a has even number of elements
         if(a.length % 2 == 1){
-            return ((a[0] == a[(a.length-1)/2]) ||
-                    (a[(a.length-1)/2] == a[a.length-1]))
-                    ? 1 : -1;
-        } else {
-            return ((a[0] == a[a.length/2]) ||
-                    (a[a.length/2- 1] == a[a.length-1]))
-                    ? 1 : -1;
+            // 3/2 = 1; (Gets floored) 0 1 2
+            // 9/2 = 4;                0 1 2 3 4 5 6 7 8
+            check1 = a[0] == a[m];
+            check2 = a[m] == a[a.length-1];
         }
+        // if a has odd number of elements
+        else {
+            // 4/2 == 2 0 1 2 3
+            // 10/2 == 5 |0| 1 2 3 ||4|| |5| 6 7 8 ||9||
+            check1 = a[0] == a[m];
+            check2 = a[m-1] == a[a.length-1];
+        }
+        return check1 || check2 ? 1 : -1;
     }
 
     public static void main(String[] args) {

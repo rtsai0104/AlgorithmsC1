@@ -4,7 +4,13 @@ import java.io.*;
 public class Partition3 {
     private static int partition3(int[] A) {
         //write your code here
-        return 0;
+        int sum = java.util.stream.IntStream.of(A).sum();
+        if (A.length <= 2 || sum % 3 != 0) {
+            return 0;
+        }
+        int divAmt = sum/3;
+
+        return divAmt;
     }
 
     public static void main(String[] args) {

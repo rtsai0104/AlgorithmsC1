@@ -17,6 +17,13 @@ public class Closest {
         public int compareTo(Point o) {
             return o.y == y ? Long.signum(x - o.x) : Long.signum(y - o.y);
         }
+
+    }
+
+    static class sortX implements Comparator<Point> {
+        public int compare(Point a, Point b) {
+            return (int)(a.x-b.x);
+        }
     }
 
     static double minimalDistance(int[] x, int y[]) {
@@ -27,7 +34,18 @@ public class Closest {
             middleLine += x[i];
         }
         middleLine /= x.length;
+        Arrays.sort(points, new sortX());
+        for (int i = 0; i < points.length; i++) {
+            System.out.println(points[i].x + " " + points[i].y);
+        }
         double ans = calculateDistance(points, 0, points.length-1);
+        System.out.println(ans + " " + middleLine);
+        ArrayList<Point> second = new ArrayList<>();
+        for (int i = 0; i < points.length; i++) {
+            if (points[i].x < middleLine+ans && points[i].x > middleLine-ans) {
+                second.add(points[i]);
+            }
+        }
         return middleLine;
     }
 
